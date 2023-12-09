@@ -10,7 +10,9 @@ Docstract is a command-line tool that generates documentation for functions in a
    pip install pylint gitpython
 
 ## command to run
-python docstract.py /path/to/your/repo --doc_file_path /path/to/your/docfile.md
+python docstract.py 
+/path/to/your/repo 
+--doc_file_path /path/to/your/docfile.md
 
 ## example 
 # Function Documentation
