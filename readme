@@ -1,0 +1,37 @@
+# Docstract
+
+Docstract is a command-line tool that generates documentation for functions in a Python repository. It extracts function names and their explanations from Python files using `pylint` and creates a Markdown documentation file.
+
+## Usage
+
+1. Install the required dependencies:
+
+   ```bash
+   pip install pylint gitpython
+
+## command to run
+python docstract.py /path/to/your/repo --doc_file_path /path/to/your/docfile.md
+
+## example 
+# Function Documentation
+
+## path/to/your/file.py:function_name
+
+```python
+Explanations from pylint output...
+
+
+## Requirements
+
+- Python 3.x
+- pylint
+- gitpython
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- Inspired by the need for simple and automated function documentation.
+- Built with [pylint](https://www.pylint.org/) and [GitPython](https://gitpython.readthedocs.io/).
